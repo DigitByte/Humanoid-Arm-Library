@@ -1,0 +1,8 @@
+id: BAS-PLT-001
+name: Base Plate v1
+category: base
+status: prototype
+interfaces:
+  mount_to: test_bench
+artifacts:
+  cad_file: ../../../mechanical/cad/model/base-plate.STL

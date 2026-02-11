@@ -1,0 +1,11 @@
+id: JNT-WRS-001
+name: Wrist Joint v1
+category: joint
+status: prototype
+interfaces:
+  parent_link: lower-limb-v1
+  child_link: end_effector
+  actuator: ACT-RMDX-001
+artifacts:
+  cad_file: ../../../mechanical/cad/model/wrist.STL
+notes: Wrist articulation component.

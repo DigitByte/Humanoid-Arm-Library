@@ -1,0 +1,14 @@
+id: GBX-PLN-001
+name: Planetary Gearbox Family
+category: gearbox
+status: draft
+interfaces:
+  mechanical:
+    input_interface: motor_shaft
+    output_interface: joint_output
+    bearing_support: required
+  software:
+    reflected_inertia_model: pending
+artifacts:
+  cad: ../../../mechanical/cad/model
+notes: Library placeholder for planetary options used in arm joints.

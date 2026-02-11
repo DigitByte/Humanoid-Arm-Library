@@ -1,0 +1,11 @@
+id: JNT-ELB-001
+name: Elbow Joint v1
+category: joint
+status: prototype
+interfaces:
+  parent_link: upper-limb-v1
+  child_link: lower-limb-v1
+  actuator: ACT-RMDX-001
+artifacts:
+  cad_file: ../../../mechanical/cad/model/elbow-joint.STL
+notes: Primary elbow articulation component.

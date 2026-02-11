@@ -1,0 +1,14 @@
+line,item_type,component_id_or_spec,description,qty,unit,source_path,notes
+1,component,BAS-PLT-001,Base Plate v1,1,ea,components/base/base-plate-v1,Main fixture base
+2,component,LNK-UPR-001,Upper Limb v1,1,ea,components/links/upper-limb-v1,Primary upper arm link
+3,component,LNK-LWR-001,Lower Limb v1,1,ea,components/links/lower-limb-v1,Primary forearm link
+4,component,JNT-ELB-001,Elbow Joint v1,1,ea,components/joints/elbow-joint-v1,Elbow articulation
+5,component,JNT-WRS-001,Wrist Joint v1,1,ea,components/joints/wrist-joint-v1,Wrist articulation
+6,component,ACT-RMDX-001,RMD-X actuator node,3,ea,components/actuators/rmd-x-series,Assumes 3-axis configuration
+7,component,GBX-PLN-001,Planetary gearbox module,3,ea,components/gearboxes/planetary,One per actuator axis (placeholder)
+8,hardware,M5x16_socket_head_cap_screw,Structural fastener,24,ea,,Confirm length per stackup
+9,hardware,M5_nyloc_nut,Fastener nut,24,ea,,Pair with M5 bolts
+10,hardware,M5_flat_washer,Flat washer,48,ea,,Two per bolted interface typical
+11,hardware,6703-2RS_bearing,Bearing support,6,ea,,Adjust by final joint architecture
+12,electrical,can_bus_harness,CAN wiring harness,1,set,,Includes trunk + branch leads
+13,electrical,24V_to_48V_dc_supply,Power supply,1,ea,,Size based on peak current budget

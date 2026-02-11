@@ -1,0 +1,18 @@
+id: ACT-RMDX-001
+name: MyActuator RMD-X Series
+category: actuator
+status: draft
+interfaces:
+  mechanical:
+    mount_pattern: TBD
+    shaft_interface: TBD
+  electrical:
+    bus: CAN_2.0B
+    voltage_range: TBD
+  software:
+    protocols: [CAN]
+    ros2_support: true
+artifacts:
+  docs: ../../docs/overview.md
+  examples: ../../../software/python/code
+notes: Baseline actuator family used for humanoid arm experiments.

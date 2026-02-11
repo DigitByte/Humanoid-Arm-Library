@@ -1,0 +1,11 @@
+part_name,category,cad_path,component_id
+base-plate,base,mechanical/cad/model/base-plate.STL,BAS-PLT-001
+upper-limb,link,mechanical/cad/model/upper-limb.STL,LNK-UPR-001
+lower-limb,link,mechanical/cad/model/lower-limb.STL,LNK-LWR-001
+elbow-joint,joint,mechanical/cad/model/elbow-joint.STL,JNT-ELB-001
+wrist,joint,mechanical/cad/model/wrist.STL,JNT-WRS-001
+j1-base,base,mechanical/cad/model/j1-base.STL,BAS-PLT-001
+j2-base,joint,mechanical/cad/model/j2-base.STL,JNT-ELB-001
+j3-base,joint,mechanical/cad/model/j3-base.STL,JNT-WRS-001
+clamp,joint,mechanical/cad/model/clamp.STL,JNT-ELB-001
+upper-limb-joint,joint,mechanical/cad/model/upper-limb-joint.STL,JNT-ELB-001

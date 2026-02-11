@@ -1,0 +1,9 @@
+id: LNK-LWR-001
+name: Lower Limb v1
+category: link
+status: prototype
+interfaces:
+  upstream_joint: elbow
+  downstream_joint: wrist
+artifacts:
+  cad_file: ../../../mechanical/cad/model/lower-limb.STL

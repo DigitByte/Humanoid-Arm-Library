@@ -1,0 +1,9 @@
+id: LNK-UPR-001
+name: Upper Limb v1
+category: link
+status: prototype
+interfaces:
+  upstream_joint: shoulder
+  downstream_joint: elbow
+artifacts:
+  cad_file: ../../../mechanical/cad/model/upper-limb.STL
