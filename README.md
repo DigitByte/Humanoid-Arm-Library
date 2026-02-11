@@ -1,4 +1,4 @@
-# Gearbox-Actuator-Library
+# Humanoid Arm Library
 
 Humanoid robotic arm component library built on modular actuator and gearbox architecture.
 
